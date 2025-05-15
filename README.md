@@ -20,7 +20,7 @@ Download Hugo Cite in the `themes/hugo-cite` directory, either by [cloning with 
 The Git way:
 
 ```bash
-git submodule add https://github.com/loup-brun/hugo-cite.git themes/hugo-cite
+git submodule add https://github.com/StevenGolovkine/hugo-cite.git themes/hugo-cite
 ```
 
 Your project directory should then look like this:
@@ -29,7 +29,7 @@ Your project directory should then look like this:
 # Your Hugo project directory
 ├── config.yml
 └── themes
-    └── hugo-cite
+└── hugo-cite
 ```
 
 ### 2. Configure
@@ -63,19 +63,19 @@ Here is an example:
 ```bash
 # Your Hugo project directory
 ├── content
-│   ├── article1
-│   │   ├── bib.json
-│   │   └── index.md
-│   ├── article2
-│   │   ├── image.jpg
-│   │   ├── index.md
-│   │   └── mr-bib.json
-│   └── article3
-│       ├── index.md
-│       └── oh-my-bib.json
+│ ├── article1
+│ │ ├── bib.json
+│ │ └── index.md
+│ ├── article2
+│ │ ├── image.jpg
+│ │ ├── index.md
+│ │ └── mr-bib.json
+│ └── article3
+│ ├── index.md
+│ └── oh-my-bib.json
 └── path
-    └── to
-        └── bib.json
+└── to
+└── bib.json
 ```
 
 ### Shortcodes
