@@ -185,8 +185,7 @@
             {{- $formatedPages = (printf "pp.&nbsp;%s" $currentPages) | safeHTML -}}
             {{- end -}}
             {{- $formatedPages }}{{- end -}}
-          </a>
-          </span>
+          </a></span>
           <!--{{- /* Eliminate space between css-hidden citation hover block */ -}} -->
           <!--<span class="hugo-cite-citation"> {{ partial $partialPath $reference }}</span> -->
           <!--</span> -->
@@ -208,4 +207,4 @@
 
     {{- end -}}
     {{- /* END loop over keys*/ -}}
-)</span>{{- /* caution: to ensure correct trim, have no white space / line break after this comment! */ -}}
+  )</span>{{- /* caution: to ensure correct trim, have no white space / line break after this comment! */ -}}
