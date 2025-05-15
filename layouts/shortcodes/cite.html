@@ -189,22 +189,17 @@
           <!--{{- /* Eliminate space between css-hidden citation hover block */ -}} -->
           <!--<span class="hugo-cite-citation"> {{ partial $partialPath $reference }}</span> -->
           <!--</span> -->
-
         {{- if lt (add 1 $keyIndex) $totalRefs -}};&#32;{{- end -}}
-
       {{- else -}}
-
         {{- /*
         Did not find reference with matching key
         */ -}}
         {{- $particularKeyErr := printf $defaultErrString $key -}}
         {{- $errorNoMatchingKey := $particularKeyErr -}}
         <span style="background-color: #f00; color: #fff;">{{- $errorNoMatchingKey -}}</span>
-
         {{- end }}
         {{- end }}
       {{- end -}}{{/* End Bibliography Loop */ -}}
-
     {{- end -}}
     {{- /* END loop over keys*/ -}}
 )</span>{{- /* caution: to ensure correct trim, have no white space / line break after this comment! */ -}}
